@@ -1,0 +1,13 @@
+/* src\pages\PaginaInicial\styles.css */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(130deg, #ff6b6b, rgb(255, 255, 255), #59baff);  
+  }
+
+
+  
