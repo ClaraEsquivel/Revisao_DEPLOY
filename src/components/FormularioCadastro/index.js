@@ -56,14 +56,27 @@ function FormularioCadastro() {
                     onChange={(e) => setNome(e.target.value)}
                     required
                 />
-                <input
+                
+                <select
+                  id = "sexo"
+                  value = {sexo}
+                  onChange={(e) => setSexo(e.target.value)}
+                  required
+                >
+                    <option value="" disabled>Selecione o sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                {/* <input
                     type="text"
                     id="sexo"
                     placeholder="Sexo"
                     value={sexo}
                     onChange={(e) => setSexo(e.target.value)}
                     required
-                />
+                /> */}
 
                 <input
                     type="number"

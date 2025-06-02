@@ -45,6 +45,11 @@ button {
 input {
     border: 1px solid #ccc;
 }
+
+select:focus, input:focus {
+    border-color: #284ea7;
+    outline: none;
+}
   
 button {
     background-color: #28a745;
